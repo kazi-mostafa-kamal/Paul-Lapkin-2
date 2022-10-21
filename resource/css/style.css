@@ -189,7 +189,8 @@ ul li{
 =============================================================*/
 
 #about-area{
-    background:linear-gradient(rgba(247, 238, 238, 0.616),rgba(235, 226, 226, 0.384)),url(./img/wel2.jpg) no-repeat center ;
+    background:linear-gradient(rgba(247, 238, 238, 0.616),rgba(235, 226, 226, 0.384)),url(./img/wel2.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .about-container{
@@ -209,12 +210,12 @@ ul li{
 .about-text p{
     line-height: 2;
     color: #000;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 .about-btn{
     margin-top:30px;
-    font-size: 200%;
+    font-size: 180%;
 }
 
 /* ==========================================================
@@ -223,6 +224,7 @@ ul li{
 
 #working-area{
     background:linear-gradient(rgba(32, 31, 31, 0.308),rgba(31, 29, 29, 0.212)),url(./img/wel3.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .working-container{
@@ -267,6 +269,7 @@ ul li{
 
 #experince-area{
     background:linear-gradient(rgba(32, 31, 31, 0.568),rgba(31, 29, 29, 0.61)),url(./img/wel6.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .exp-container{
@@ -312,6 +315,7 @@ ul li{
 
 #latest-area{
     background:linear-gradient(rgba(32, 31, 31, 0.308),rgba(31, 29, 29, 0.212)),url(./img/wel5.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .list-container{
@@ -367,7 +371,7 @@ ul li{
 =============================================================*/
 
 #sing-area{
-    background:linear-gradient(rgba(32, 31, 31, 0.308),rgba(31, 29, 29, 0.212)),url(./img/wel7.jpg) no-repeat center;
+    background:linear-gradient(rgba(247, 240, 240, 0.568),rgba(247, 239, 239, 0.616)),url(./img/wel7.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -387,12 +391,16 @@ ul li{
 #form-area{
     background:linear-gradient(rgba(32, 31, 31, 0.678),rgba(31, 29, 29, 0.781)),url(./img/wel4\ .jpg) no-repeat center;
     background-size: cover;
+    color: #fff;
 }
 
 .form-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+}
+#form-area h2{
+    color: #fff;
 }
 
 
@@ -441,7 +449,7 @@ ul li{
 
 .from-btn{
     float: right;
-    font-size: 170%;
+    font-size: 180%;
 }
 
 .input-area input, textarea,::placeholder {
@@ -457,7 +465,7 @@ ul li{
 #footer-area{
     background: #352626;
     text-align: center;
-    padding: 70px 0;
+    padding: 30px 0;
 }
 
 .footer-menu{
@@ -500,7 +508,7 @@ ul li{
   }
   #top-up ion-icon{
     font-size: 400%;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.39);
     padding: 5px;
     border-radius:20px 20px 0 0;
   }
@@ -619,7 +627,7 @@ ul li{
         font-size: 145%;
       }
       .about-text {
-        font-size: 150%;
+        font-size: 110%;
       }
 
       .working-container{
@@ -628,5 +636,9 @@ ul li{
       .sing-text p {
         width: 100%;
         margin: 20px 0;
+      }
+
+      #top-up{
+        right: 5%;
       }
 }
